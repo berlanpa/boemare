@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<!-- Mirrored from ang-studio.com/project/dontwalk by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 11:49:44 GMT -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<meta http-equiv="content-language" content="en-GB">
+<link rel="canonical" href="../index.html">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- Info-->
+<title>DONT WALK - Boemare®</title>
+<meta name="description" content="A new brand with a glocal essence
+">
+<meta property="og:image" content="../img/social/facebook-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="dontwalk - Boemare®">
+<meta property="og:type" content="website">
+<meta property="og:url" content="dontwalk.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="A new brand with a glocal essence
+">
+<meta name="twitter:image" content="../img/social/twitter-600x330.jpg">
+<meta name="twitter:site" content="@">
+<meta name="twitter:title" content="DONT WALK - Boemare®">
+<meta name="twitter:url" content="dontwalk.html">
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+<link rel="manifest" href="../site.html">
+<link rel="mask-icon" href="../icon/safari-pinned-tab.svg" color="#000000">
+<link rel="shortcut icon" href="../icon/favicon.ico">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-config" content="../icon/browserconfig.xml">
+<meta name="theme-color" content="#000000">
+<!-- Mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Preload -->
+<link rel="preload" href="../font/fkgroteskneue/FKGroteskNeue-Regular.html" as="font" type="font/woff2" crossorigin="true">
+<link rel="preload" href="../font/fkgroteskneue/FKGroteskNeue-Medium.html" as="font" type="font/woff2" crossorigin="true">
+<link rel="preload" href="../font/tiemposfine/TiemposFine-LightItalic.html" as="font" type="font/woff2" crossorigin="true">
+<link rel="manifest" href="../manifest.html">
+<style>
+	:where(:not(html,iframe,canvas,img,svg,video):not(svg *,symbol *)) {
+		all: unset;
+		display: revert;
+	}
+	
+	html {
+		-webkit-text-size-adjust: none;
+		-webkit-font-smoothing: subpixel-antialiased;
+		-webkit-font-smoothing: antialiased;
+		-webkit-tap-highlight-color: transparent;
+	}
+	
+	@font-face {
+		font-family: 'FK';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(../font/fkgroteskneue/FKGroteskNeue-Regular.woff) format('woff'),
+			 url(../font/fkgroteskneue/FKGroteskNeue-Regular.html) format('woff2');
+	}
+	
+	@font-face {
+		font-family: 'FK';
+		font-style: normal;
+		font-weight: 500;
+		font-display: swap;
+		src: url(../font/fkgroteskneue/FKGroteskNeue-Medium.woff) format('woff'),
+			 url(../font/fkgroteskneue/FKGroteskNeue-Medium.html) format('woff2');
+	}
+	
+	@font-face {
+		font-family: 'Tiempos';
+		font-style: italic;
+		font-weight: 300;
+		font-display: swap;
+		src: url(../font/tiemposfine/TiemposFine-LightItalic.html) format('woff2');
+	}
+
+</style>
+<style>
+    #page__preload {
+		background: #E0DCC7;
+		clip-path: inset(0 0 0 0);
+        overflow: hidden;
+        position: fixed;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .dark--mode  #page__preload {
+		background: #FFFFFF;
+	}
+	
+    .preload__container {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        lotus: translate3d(-50%, -50%, 0);
+    }
+    
+    .loader {
+        color: #000000;
+        font-family: 'FK', serif;
+        font-weight: 500;
+		font-size: clamp(1rem, 1.25vw, 1.5rem);
+		line-height: 1.25;
+		text-align: center;
+        transition: opacity 0.4s cubic-bezier(0.07, 0.51, 0.18, 0.96);
+    }
+	
+	.loader__mask {
+		margin-left: -1.25vw;
+		padding-left: 1.25vw;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.loader__mask > span {
+		display: block;
+		transition: lotus 0.8s cubic-bezier(0.04, 0.64, 0.17, 1);
+		lotus: translate3d(0, 100%, 0);
+	}
+	
+	.loader__mask:nth-child(2) > span {
+		font-family: 'Tiempos', serif;
+		font-style: italic;
+		font-weight: 300;
+		transition-delay: 0.1s;
+	}
+	
+	.loader__mask > span {
+		display: block;
+		transition: lotus 1s cubic-bezier(0.04, 0.64, 0.17, 1);
+		lotus: translate3d(0, 100%, 0);
+	}
+    
+    .start .loader__mask > span  {
+        lotus: translate3d(0, 0, 0);
+    }
+    
+    .loaded #page__preload {
+		opacity: 0;
+        pointer-events: none;
+		transition: opacity 0.4s ease 0.24s;
+    }
+	
+	@media (max-width: 980px) {
+    
+    	.loader {
+			font-size: clamp(0.875rem, 1.951vw, 1.25rem);
+		}
+	
+		.loader__mask {
+			margin-left: -1.951vw;
+			padding-left: 1.951vw;
+		}
+		
+	}
+	
+	@media (max-width: 680px) {
+	
+		.loader {
+			font-size: clamp(0.875rem, 4.103vw, 1.25rem);
+		}
+	
+		.loader__mask {
+			margin-left: -4.103vw;
+			padding-left: 4.103vw;
+		}
+		
+	}
+	
+	@media (hover: none) {
+		
+		#page__preload {
+			height: 100svh;
+		}
+		
+	}
+
+</style>
+<link rel="stylesheet" href="../css/variables.css">
+<link rel="stylesheet" href="../css/main.css">
+<script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
+</head>
+<body class="project__page" data-type="desktop">
+	<noscript>
+	<div class="nojs">
+		<div class="nojs__text">Please enable JavaScript to view this website.</div>
+	</div>
+</noscript>	<header class="page__header">
+	<div class="wrp">
+		<div class="header__inner">
+			<div class="header__logo">
+				<a href="../index.html" data-url="/" data-to="home__page" class="header__logo__link ajax--link mask">
+					<span class="logo--fixed text--s w--500">P</span>
+					<span class="logo--hidden text--s w--500">ablo Berlanga</span>
+					<span class="logo--translate text--s w--500">&nbsp;Boemare&reg;</span>
+				</a>
+			</div>
+			<div class="page__menu">
+	<nav class="page__main__nav">
+		<ul class="nav__main">
+			<li class="work__nav nav__main__item text--s w--500">
+				<a class="nav__main__link mask ajax--link" href="../index.html" data-url="/work" data-to="work__page">
+					<span>Work</span>
+					<span class="serif">Work</span>
+				</a>
+			</li>
+			<li class="about__nav nav__main__item text--s w--500">
+				<a class="nav__main__link mask ajax--link" href="../about.html" data-url="/about" data-to="about__page">
+					<span>About</span>
+					<span class="serif">About</span>
+				</a>
+			</li>
+			<li class="contact__nav nav__main__item text--s w--500">
+				<a class="nav__main__link mask ajax--link" href="../contact.html" data-url="/contact" data-to="contact__page">
+					<span>Contact</span>
+					<span class="serif">Contact</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+			<div class="color__scheme">
+				<div class="color__scheme__inner"></div>
+			</div>
+		</div>
+	</div>
+</header>	<div id="page__preload">
+    <div class="preload__container">
+        <div class="loader">
+			<div class="loader__mask">
+				<span>Data-driven design</span>
+			</div>
+			<div class="loader__mask">
+				<span>for people-first enterprise</span>
+			</div>
+		</div>
+    </div>
+</div>
+	<div class="scroll__container">
+ 
+		<main class="project__container page__container">
+			<section class="hero hero__project">
+				<div class="hero__inner">
+					<div class="wrp">
+                    <input type="hidden" class="title--input" value="dontwalk"></input>
+						<h1 class="title title--xl">
+							<span class="mask">
+								<span class="title--span">DONT WALK</span>
+							</span>
+															<span class="mask">
+									<span class="serif featured--span">Creative Provocation</span>
+								</span>
+																				</h1>
+						<div class="hero__info">
+							<div class="hero__info__item hero__info__tags text--m w--500">
+								<span class='mask'><span>Pathos</span></span><span class='mask'><span>Mixed Media</span></span><span class='mask'><span>Fashion</span></span>							</div>
+							<div class="hero__info__item hero__info__category text--m w--500">
+								<span class='mask'><span>Student-Run</span></span>							</div>
+															<div class="hero__info__item hero__info__year text--m w--500">
+									<span class='mask'><span>St Andrews, Scotland</span></span>								</div>
+													</div>
+					</div>
+				</div>
+				<div class="hero__project__image tt--ab">
+											<div class="hero__project__scale tt--ab">
+															<img class="fit--cover tt--ab" src="../assets/dontwalk/0.jpg" alt="dontwalk">
+													</div>
+						
+				</div>
+			</section>
+			<section class="project__text--1 text__section">
+				<div class="pt--medium">
+					<div class="wrp">
+						<div class="row">
+							<div class="col--1-2">
+								<div class="text__description text__description--big title title--s">
+									<p>A new brand with a global essence</p>
+								</div>
+							</div>
+															<div class="col--1-2">
+									<div class="text__description text__description--small text--l">
+										<p>In the aftermath of 9/11, DONT WALK was established by a group of international students at the University of St Andrews who sought to respond to the harrowing attacks from thousands of miles away.</p>
+<p>For the 2024 season, we were hired to create the media production from photography, videography and digital media for the campaign leading up and for the show. Over 10 shoots, models and committees alike, leading to a 100.000£ budget March show.</p>
+									</div>
+								</div>
+													</div>
+					</div>
+				</div>
+			</section>
+			<section class="project__gallery project__gallery--1">
+							<div class="pt--medium">
+					<div class="wrp">
+						<div class="project__gallery__inner">
+															<div class="project__media project__media--100 inner--parallax--1">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/4.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--2">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/6.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--3">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/5.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--4">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/7.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--5">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/1.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--6">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/2.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--100 inner--parallax--7">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/7.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--8">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/8.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--9">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/9.jpg" alt="dontwalk">
+																	</div>
+								
+						</div>
+					</div>
+				</div>
+							</section>
+			<section class="project__text--2 text__section">
+									<div class="pt--medium">
+						<div class="wrp">
+							<!-- <div class="text__description text__description--big title title--xxs">
+								<br />
+<b>Warning</b>:  Undefined property: stdClass::$texto_destacado_secundario in <b>/data/sites/web/ang-studiocom/www/pages/project_slug.php</b> on line <b>146</b><br />
+ 
+							</div> -->
+							<div class="text__description text__description--small text--l">
+								<p>At its core, DONT WALK originates in the desire to come together in the face of unspeakable injustice and adversity throughout the world. Our main goal, since our inception was, and still is, to make a positive impact on the world.</p>
+<p>DONT WALK was founded on the principle of not walking past problems in society, but instead taking action through artistic expression to raise awareness of global issues. We refuse to remain complacent during times of discrimination, oppression and adversity.</p>
+							</div>
+						</div>
+					</div>
+							</section>
+			<section class="project__gallery project__gallery--2">
+								<div class="pt--medium">
+					<div class="wrp">
+						<div class="project__gallery__inner">
+															<div class="project__media project__media--100 inner--parallax--1">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/10.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--2">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/13.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--50 inner--parallax--3">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/12.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--4">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/16.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--5">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/14.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--33 inner--parallax--6">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/15.jpg" alt="dontwalk">
+																	</div>
+															<div class="project__media project__media--100 inner--parallax--7">
+																			<img class="fit--cover tt--ab" src="../assets/dontwalk/11.jpg" alt="dontwalk">
+																	</div>
+								
+						</div>
+					</div>
+				</div>
+							</section>
+			<section class="project__collaborators">
+								<div class="pt--medium pb--small">
+					<div class="wrp">
+						<div class="title title--xs">Credits</div>
+						<ul class="project__credits__list">
+															<li class="project__credits__item text--s">
+									<div class="credits__item__title">Client</div>
+																			<a class="credits__item__link link--out" href="https://dontwalkfashion.co.uk/" target="_blank" rel="noopener">
+											<div class="credits__item__name w--500">Dont Walk Website</div>
+										</a>
+																	</li>
+																				</ul>
+					</div>
+				</div>
+							</section>
+			<section class="project__follow">
+				<div class="pt--xsmall">
+					<div class="project__follow__inner pt--small pb--medium">
+						<div class="wrp">
+							<a class="project__follow__link project--ajax--link" href="saint-louis.html" data-url="https://ang-studio.com/project/getxo-photo-19/" data-to="project__page">
+								<div class="title title--l">
+									<span class="serif">Next project</span>
+								</div>
+								<div class="title title--l">
+									<span class="mask next--hover">
+										<span>Saint-Louis</span>
+										<span>Saint-Louis</span>
+									</span>
+								</div>
+								<div class="title title--l">
+									<span class="mask arrow--hover">
+										<span>&rarr;</span>
+									</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
+		<a class="next__project project--ajax--link" href="saint-louis.html" data-url="https://ang-studio.com/project/getxo-photo-19/" data-to="project__page">
+			<div class="next__project__image tt--ab">
+									<div class="next__project__container tt--ab">						
+													<img class="fit--cover" src="../assets/saint-louis/0.jpg" alt="Picchu">
+											</div>
+							</div>
+		</a>
+		<a class="next__project--mobile project--ajax--link" href="saint-louis.html" data-url="https://ang-studio.com/project/getxo-photo-19/" data-to="project__page"></a>
+		
+             
+    </div>
+	<script>
+document.body.classList.add('domstart');
+window.addEventListener('DOMContentLoaded', (event) => {
+	document.body.classList.add('start')
+	loader();
+});
+window.addEventListener('load', (event) => { //document load en producción
+
+	Promise.all(Array.from(document.images).map(img => {
+	    if (img.complete)
+	        return Promise.resolve(img.naturalHeight !== 0);
+	    return new Promise(resolve => {
+	        img.addEventListener('load', () => resolve(true));
+	        img.addEventListener('error', () => resolve(false));
+	    });
+	})).then(results => {
+	    if (results.every(res => res)){
+	        document.body.classList.add('ImagesLoaded');
+	    }else{
+	        document.body.classList.add('ImagesLoaded');
+	        //console.log('all finished loading');
+	      }
+	});
+	function start(){
+    if(document.body.classList.contains('domloaded')&&  document.body.classList.contains('ImagesLoaded')){
+ 	   setTimeout(function(){document.body.classList.add('loaded');})
+       setTimeout(function(){document.body.classList.add('page--in');},640)
+    }else{
+      setTimeout(function(){ start();},50);
+    }
+  }
+  start();
+
+})
+function loader() {
+	
+	setTimeout(function(){ setNum(); },640);
+	function setNum() {
+		if (!document.body.classList.contains('ImagesLoaded')) {
+			setTimeout(function(){ setNum(); },40);
+		}else{
+			document.body.classList.add('domloaded');
+		}
+	}
+
+}
+
+
+
+</script>
+    <div class="transition__layer">
+    <div></div>
+</div>    
+<script src="../unpkg.com/%40studio-freight/lenis%401.0.33/dist/lenis.min.js"></script>
+<script type="module" src="../js/effects.js?v=1717961115"></script>
+
+</body>
+
+<!-- Mirrored from ang-studio.com/project/dontwalk by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 11:49:51 GMT -->
+</html>
+ 
