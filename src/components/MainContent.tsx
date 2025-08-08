@@ -27,7 +27,23 @@ export default function MainContent() {
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
-            <span>Before this, I spent 6 months between the Congo jungle and the Andes figuring out the hardware that would enable this, 3 years as a research engineer at INSERM, McDonalds, and CREST, while studying computer science between St Andrews and École Polytechnique [on leave]</span>
+            <span>
+              Before this, I spent 6 months between the{" "}
+              <a href="https://salonga.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Congo</a>
+              {" "}jungle and the{" "}
+              <a href="https://youtu.be/9UtKELjpWCk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Andes</a>
+              {" "}figuring out the hardware that would enable this, 3 years as a research engineer at{" "}
+              <a href="https://idesp.umontpellier.fr/en/accueil-english/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">INSERM</a>
+              ,{" "}
+              <a href="https://www.mcdonaldsreunion.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">McDonalds</a>
+              , and{" "}
+              <a href="https://crest.science/about-2/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CREST</a>
+              , while studying computer science between{" "}
+              <a href="https://www.st-andrews.ac.uk/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">St Andrews</a>
+              {" "}and{" "}
+              <a href="https://www.polytechnique.edu/en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">École Polytechnique</a>
+              {" "}[on leave]
+            </span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
@@ -43,7 +59,19 @@ export default function MainContent() {
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
-            <span>My current world view is a synthesis of ideas I call the rhetoric of life, pooling from Prometheanism, Accelerationism, Humanism, Sumak Kawsay and the Noble Sauvage.</span>
+                          <span>My current world view is a synthesis of ideas I call the rhetoric of life, pooling from{" "}
+                <a href="https://en.wikipedia.org/wiki/Prometheanism" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Prometheanism</a>
+                ,{" "}
+                <a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/104129607/Williams_and_Srnicek._Accelerate_.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Accelerationism</a>
+                ,{" "}
+                <a href="https://www.mhra.org.uk/pdf/td-20-9.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Humanism</a>
+                ,{" "}
+                <a href="https://en.wikipedia.org/wiki/Sumak_kawsay" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Sumak Kawsay</a>
+                {" "}and the{" "}
+                Rousseau&apos;s{" "}
+                <a href="https://en.wikipedia.org/wiki/Noble_savage" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Noble Sauvage</a>
+                .
+              </span>
           </li>
         </ul>
       </section>

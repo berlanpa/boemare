@@ -7,10 +7,10 @@ export default function TopBar() {
           <a href="#" className="hover:text-gray-900 transition-colors">Home</a>
           <a href="#" className="hover:text-gray-900 transition-colors">Reading</a>
           <a href="#" className="hover:text-gray-900 transition-colors">Writing</a>
-          <a href="#" className="hover:text-gray-900 transition-colors">Deep Dives</a>
+          <a href="#" className="hover:text-gray-900 transition-colors">Dives</a>
           <span className="mx-2 text-gray-300">|</span>
-          <a href="https://x.com/_boemare" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Twitter</a>
-          <a href="https://github.com/berlanpa" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">GitHub</a>
+          <a href="https://x.com/_boemare" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">X</a>
+          <a href="https://github.com/berlanpa" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">Git</a>
         </nav>
       </div>
     </div>
