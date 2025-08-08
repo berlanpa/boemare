@@ -21,7 +21,7 @@ export default function MainContent() {
         <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-3">
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
-            <span>I'm building how AI can play with off-grid live data at the Residency.</span>
+            <span>I&apos;m building how AI can play with off-grid live data at the Residency.</span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
@@ -47,7 +47,7 @@ export default function MainContent() {
       </section>
 
       <section className="mb-4">
-        <h2 className="font-bold mb-2">Some things I'm interested in:</h2>
+        <h2 className="font-bold mb-2">Some things I&apos;m interested in:</h2>
         <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-3">
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
