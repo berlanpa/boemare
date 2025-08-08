@@ -1,6 +1,6 @@
 export default function Navigation() {
   return (
-    <nav className="fixed top-16 w-48 z-40" style={{ left: 'calc(50% - 450px)' }}>
+    <nav className="hidden md:block fixed top-16 w-48 z-40" style={{ left: 'calc(50% - 450px)' }}>
       <div className="mb-8">
         <h2 className="font-bold text-sm mb-4">NAVIGATION</h2>
         <ul className="space-y-2 text-[1.1rem] text-gray-500">

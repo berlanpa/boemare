@@ -2,26 +2,28 @@ import Image from "next/image";
 
 export default function MainContent() {
   return (
-    <main className="max-w-xl" style={{ marginLeft: '50px' }}>
+    <main className="max-w-xl md:ml-[50px] ml-2 pr-4 md:pr-0">
       {/* Name Title - Left-aligned at same height as navigation */}
       <header className="text-left py-0">
-        <Image 
-          src="/title.png" 
-          alt="Boemare" 
-          width={400} 
-          height={100}
-          className="mb-2"
-          priority
-        />
-        <p className="text-lg text-gray-600 mb-8">Pablo Berlanga Boemare</p>
+        <div className="mb-2">
+          <Image 
+            src="/title.png" 
+            alt="Boemare" 
+            width={400} 
+            height={100}
+            className="mb-0 w-[280px] md:w-[400px] h-auto"
+            priority
+          />
+        </div>
+        <p className="text-base md:text-lg text-gray-600 mb-8">Pablo Berlanga Boemare</p>
       </header>
 
       <section className="mb-4">
         <h2 className="font-bold mb-2">Some things about me:</h2>
-        <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-3">
+        <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-2 md:pl-3">
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
-            <span>I&apos;m building how AI can play with off-grid live data in the Bay.</span>
+            <span>I&apos;m building  in the Bay how AI can play with off-grid live data.</span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
@@ -48,7 +50,7 @@ export default function MainContent() {
 
       <section className="mb-4">
         <h2 className="font-bold mb-2">Some things I&apos;m interested in:</h2>
-        <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-3">
+        <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-2 md:pl-3">
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
             <span>Sensory Intelligence. How minds and devices perceive and empathize with the world, and simple tools that sharpen perception.</span>
