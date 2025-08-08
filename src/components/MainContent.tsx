@@ -21,7 +21,7 @@ export default function MainContent() {
         <ul className="space-y-2 text-gray-700 leading-relaxed list-none pl-3">
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
-            <span>I&apos;m building how AI can play with off-grid live data at the Bay.</span>
+            <span>I&apos;m building how AI can play with off-grid live data in the Bay.</span>
           </li>
           <li className="flex items-start">
             <span className="mr-3 text-gray-500">•</span>
