@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for bookshelf */
+.bookshelf-container {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.bookshelf-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Book cover responsive heights */
+.book-cover {
+  height: 100px;
+}
+
+@media screen and (min-width: 30em) {
+  .book-cover {
+    height: 140px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .book-cover {
+    height: 160px;
+  }
+}
+
+html, body {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+main article h1:not(.no-article-styles) {
+  @apply font-bold text-4xl md:text-5xl mb-8 md:mb-10;
+}
+
+main article h2 {
+  @apply font-bold text-2xl md:text-3xl mt-12 mb-6 md:mt-14 md:mb-8;
+}
+
+main article h3 {
+  @apply font-semibold text-xl md:text-2xl mt-8 mb-3 md:mt-10 md:mb-4;
+}
+
+main article h4 {
+  @apply font-semibold text-base md:text-lg mt-6 mb-2 md:mt-8;
+}
+
+main article p {
+  @apply text-base leading-6 my-3;
+}
+
+main article a {
+  @apply font-medium text-blue-600 hover:underline;
+}
+
+main article hr {
+  @apply my-12 border-gray-200 md:my-14;
+}
+
+main article blockquote {
+  @apply italic font-semibold ps-4 my-6 md:my-8 border-l-4 border-gray-200;
+}
+
+main article pre {
+  @apply p-4 rounded-md bg-gray-700 text-gray-50 overflow-auto;
+}
+
+main article code {
+  @apply font-semibold;
+}
+
+main article figure {
+  @apply my-8;
+}
+
+main article figcaption {
+  @apply text-gray-400 mt-3;
+}
+
+main article ul {
+  @apply pl-6 list-disc;
+}
+
+main article ol {
+  @apply pl-6 list-decimal;
+}
+
+main article li {
+  @apply pl-2 my-3;
+}
+
+/* Reading bookshelf 3D open animation */
+.book-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 41.5px;
+  min-width: 41.5px;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  gap: 0;
+  margin-right: 0.5rem;
+  transition: width 500ms ease, transform 500ms ease, margin-right 500ms ease, margin-left 500ms ease;
+  will-change: transform, width, margin-right, margin-left;
+}
+
+.book-spine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 41.5px;
+  min-width: 41.5px;
+  height: 220px;
+  transform-origin: right;
+  transform: translate3d(0,0,0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+  transition: all 500ms ease;
+  will-change: transform;
+  filter: brightness(0.8) contrast(2);
+  transform-style: preserve-3d;
+}
+
+.book-cover-wrap {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+  height: 220px;
+  width: 166px;
+  transform-origin: left;
+  transform: translate3d(0,0,0) rotateX(0deg) rotateY(88.8deg) rotateZ(0deg) skew(0deg,0deg);
+  transition: all 500ms ease;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.book-cover-wrap img {
+  width: 166px;
+  height: 220px;
+  transition: all 500ms ease;
+  will-change: transform;
+}
+
+/* hover states removed; only open on click */
+
+/* Slight push of following books to make space */
+.book-item.open + .book-item {
+  margin-left: 16px; /* stronger push for neighbor */
+}
+
+.book-item.open {
+  width: 150px;       /* expand more so cover doesn't overlap neighbor */
+  min-width: 150px;
+  position: relative;
+  z-index: 1;
+  margin-right: 2.25rem; /* push neighbors to the right even more */
+}
+
+.book-item.open .book-spine {
+  transform: translate3d(0,0,0) rotateY(-70deg);
+}
+
+.book-item.open .book-cover-wrap {
+  transform: translate3d(0,0,0) rotateY(20deg);
+}
+
+
