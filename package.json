@@ -3,9 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "NEXT_DISABLE_SWC_NATIVE_BINDINGS=1 next dev",
-    "build": "NEXT_DISABLE_SWC_NATIVE_BINDINGS=1 next build && npm run export:to-docs",
-    "export:to-docs": "rm -rf docs && mkdir -p docs && cp -R out/* docs/ || true",
-    "export:to-docs-local": "rm -rf docs-local && mkdir -p docs-local/boemare-final && cp -R out/* docs-local/boemare-final/ || true",
+    "build": "NEXT_DISABLE_SWC_NATIVE_BINDINGS=1 next build && next export",
     "start": "NEXT_DISABLE_SWC_NATIVE_BINDINGS=1 next start"
   },
   "dependencies": {

@@ -1,25 +1,28 @@
-import './globals.css'
 import type { Metadata } from 'next'
 import { Lora } from 'next/font/google'
+import './globals.css'
 
-const lora = Lora({ subsets: ['latin'], variable: '--font-lora' })
+const lora = Lora({
+  subsets: ['latin'],
+  variable: '--font-lora',
+})
 
 export const metadata: Metadata = {
   title: 'Pablo Berlanga Boemare',
-  description: 'about me + my reading, writing, and deep dives',
+  description: 'Personal website of Pablo Berlanga Boemare',
   icons: {
     icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
   },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body className={lora.variable}>{children}</body>
+      <body className={`${lora.variable} font-sans`}>{children}</body>
     </html>
   )
 }
-
-

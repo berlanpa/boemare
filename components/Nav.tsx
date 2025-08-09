@@ -25,6 +25,7 @@ export default function Nav({ active }: { active: 'home' | 'reading' | 'writing'
             <Link className={`transition text-gray-500 hover:text-black text-lg`} href="/">Home</Link>
             <Link className={`transition ${active === 'reading' ? 'text-black' : 'text-gray-500 hover:text-black'} text-lg`} href="/reading">Reading</Link>
             <Link className={`transition ${active === 'writing' ? 'text-black' : 'text-gray-500 hover:text-black'} text-lg`} href="/writing">Writing</Link>
+            <Link className={`transition text-gray-500 hover:text-black text-lg`} href="/deep-dives">Deep Dives</Link>
           </div>
           <div className="flex flex-col space-y-2 mt-10">
             <p className="font-bold text-[smaller]">FIND ME ON</p>
