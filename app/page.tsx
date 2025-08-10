@@ -14,7 +14,7 @@ export default function Home() {
 
         <p><strong>Some things about me:</strong></p>
         <ul>
-          <li>I'm building in the Bay how AI can play with off-grid live data.</li>
+          <li>I'm building how AI can play with off-grid live data at <a className="hover:underline" href="https://www.livetheresidency.com/" target="_blank" rel="noopener noreferrer">the Residency</a>.</li>
           <li>
             Before this, I spent 6 months between the <a className="hover:underline" href="https://salonga.org/" target="_blank" rel="noopener noreferrer">Congo</a> jungle and the <a className="hover:underline" href="https://youtu.be/9UtKELjpWCk" target="_blank" rel="noopener noreferrer">Andes</a> figuring out the hardware that would enable this, 3 years as a research engineer at <a className="hover:underline" href="https://idesp.umontpellier.fr/en/accueil-english/" target="_blank" rel="noopener noreferrer">INSERM</a>, <a className="hover:underline" href="https://www.mcdonaldsreunion.com/" target="_blank" rel="noopener noreferrer">McDonalds</a>, and <a className="hover:underline" href="https://crest.science/about-2/" target="_blank" rel="noopener noreferrer">CREST</a>, while studying computer science between <a className="hover:underline" href="https://www.st-andrews.ac.uk/" target="_blank" rel="noopener noreferrer">St Andrews</a> and <a className="hover:underline" href="https://www.polytechnique.edu/en" target="_blank" rel="noopener noreferrer">École Polytechnique</a> [on leave]
           </li>
