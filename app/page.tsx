@@ -5,7 +5,7 @@ export default function Home() {
     <main className="max-w-prose mx-auto px-4 mt-16 pb-8 relative">
       <Nav active="home" />
       <article>
-        <img src="/title.svg" alt="Boemare" className="h-[120px] md:h-[144px] filter invert drop-shadow-[0_4px_6px_rgba(0,0,0,0.2)] rounded-sm" />
+        <img src="/title.svg" alt="Boemare" className="h-[120px] md:h-[144px]" />
         <p className="mt-2 flex items-center gap-2">
           <span className="hidden sm:inline">Pablo Berlanga Boemare</span>
           <span className="hidden sm:inline" aria-hidden="true">•</span>
